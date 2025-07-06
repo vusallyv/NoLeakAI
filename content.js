@@ -50,6 +50,7 @@ function updateLastKnownValue(e) {
 // Listen for input changes
 document.addEventListener('input', updateLastKnownValue);
 
+// Listen for Enter key press
 window.addEventListener('keydown', function(e) {
   if (
     (e.key === 'Enter' || e.keyCode === 13) &&
@@ -59,15 +60,31 @@ window.addEventListener('keydown', function(e) {
     const hasSensitiveData = checkForSensitiveData(lastKnownValue);
     
     if (hasSensitiveData) {
-
       const proceed = confirm("⚠️ Your message contains sensitive information (e.g., API key, token).\n\nDo you still want to send it?");
       if (!proceed) {
         e.preventDefault();
         e.stopImmediatePropagation();
-        console.log('[keydown] User cancelled sending.');
         return false;
       } else {
-        console.log('[keydown] User accepted sending.');
+      }
+    }
+  }
+}, true);
+
+// Listen for send button clicks
+document.addEventListener('click', function(e) {
+  // Check if the clicked element is the send button
+  const sendButton = e.target.closest('button[data-testid="send-button"]');
+  if (sendButton && lastKnownValue) {
+    const hasSensitiveData = checkForSensitiveData(lastKnownValue);
+    
+    if (hasSensitiveData) {
+      const proceed = confirm("⚠️ Your message contains sensitive information (e.g., API key, token).\n\nDo you still want to send it?");
+      if (!proceed) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        return false;
+      } else {
       }
     }
   }
