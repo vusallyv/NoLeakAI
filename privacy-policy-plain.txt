@@ -1,0 +1,39 @@
+NoLeakAI Privacy Policy
+
+NoLeakAI does NOT collect, store, or transmit any user data.
+
+DATA COLLECTION: ZERO
+- No personal information collected
+- No data stored locally or remotely
+- No data sent to external servers
+- No browsing activity tracked
+- No keystrokes or clicks monitored
+- No files or system access
+
+HOW IT WORKS:
+- All processing happens in your browser
+- Text is only read temporarily for pattern detection
+- No data persists after checking
+- No network requests made
+- No external services used
+
+PERMISSIONS:
+- Only requests access to chat.openai.com (ChatGPT)
+- Required to monitor text input for sensitive data patterns
+- No access to other websites or personal data
+
+THIRD-PARTY SERVICES: None used
+
+DATA SHARING: Nothing to share (no data collected)
+
+CHILDREN'S PRIVACY: No personal information collected from anyone
+
+CHANGES: If we ever collect data, we will notify users and provide opt-out options
+
+YOUR RIGHTS: No personal data to access, modify, or delete
+
+CONTACT: Questions can be addressed through Chrome Web Store or GitHub repository
+
+COMPLIANCE: Designed to comply with Chrome Web Store, GDPR, CCPA, and other privacy laws
+
+SUMMARY: NoLeakAI protects your sensitive data without collecting any of your personal information. Your privacy is our priority. 

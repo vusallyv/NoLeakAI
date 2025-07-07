@@ -1,0 +1,60 @@
+NoLeakAI Privacy Policy
+
+Last updated: December 2024
+
+IMPORTANT: NoLeakAI does NOT collect, store, or transmit any user data.
+
+1. DATA COLLECTION
+NoLeakAI collects ZERO user data. Our extension operates entirely within your browser and does not:
+- Collect personal information
+- Store any data locally or remotely
+- Send data to external servers
+- Track your browsing activity
+- Monitor your keystrokes or clicks
+- Access your files or system
+
+2. HOW NOLEAKAI WORKS
+NoLeakAI protects your privacy by:
+- Local Processing: All text analysis happens in your browser
+- Temporary Memory: Text is only read temporarily for pattern detection
+- Immediate Deletion: No data persists after the check is complete
+- No Storage: Nothing is saved locally or remotely
+- No Network Requests: Extension never sends data to external servers
+
+3. PERMISSIONS
+NoLeakAI requests minimal permissions:
+- chat.openai.com access: Required to monitor ChatGPT text input for sensitive data patterns
+- No other permissions: We don't request access to your personal data, browsing history, or other websites
+
+4. THIRD-PARTY SERVICES
+NoLeakAI does not use any third-party services, analytics, or tracking tools.
+
+5. DATA SHARING
+Since we don't collect any data, there is nothing to share with third parties.
+
+6. CHILDREN'S PRIVACY
+NoLeakAI does not collect any personal information from anyone, including children under 13.
+
+7. CHANGES TO THIS POLICY
+If we ever change this privacy policy to collect user data, we will:
+- Notify users through the extension
+- Update this privacy policy
+- Provide clear opt-out options
+
+8. YOUR RIGHTS
+Since we don't collect your data, there's no personal information to access, modify, or delete.
+
+9. CONTACT INFORMATION
+If you have questions about this privacy policy or NoLeakAI's privacy practices:
+- Review the extension's source code (open source)
+- Check the extension's GitHub repository (if available)
+- Contact the developer through the Chrome Web Store
+
+10. COMPLIANCE
+NoLeakAI is designed to comply with:
+- Chrome Web Store privacy requirements
+- General Data Protection Regulation (GDPR)
+- California Consumer Privacy Act (CCPA)
+- Other applicable privacy laws
+
+SUMMARY: NoLeakAI is a privacy-first extension that protects your sensitive data without collecting any of your personal information. Your privacy is our priority. 
